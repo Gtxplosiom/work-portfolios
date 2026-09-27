@@ -32,8 +32,12 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Prevent Jekyll from skipping Next.js assets
-        run: touch out/.nojekyll
+      - name: Place Jae site under /jae
+        run: |
+          mv out exported-site
+          mkdir -p out/jae
+          cp -R exported-site/. out/jae/
+          touch out/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
