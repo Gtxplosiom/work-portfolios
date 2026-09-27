@@ -2,7 +2,7 @@ export default function Portfolio() {
   return (
     <main>
       <section id="introduction" aria-labelledby="introduction-title">
-        <h1 id="introduction-title">Introduction / About</h1>
+        <h1 id="introduction-title">Hi, I am Jas</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae lorem sed justo feugiat tincidunt. Integer at mauris eget erat consequat aliquet.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non lectus sed magna posuere tincidunt.</p>
       </section>
